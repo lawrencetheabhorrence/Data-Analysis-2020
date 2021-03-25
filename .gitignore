@@ -1,0 +1,7 @@
+hy-data-analysis-with-python-2020/**/test
+hy-data-analysis-with-python-2020/**/tmc
+hy-data-analysis-with-python-2020/**/.tmc_test_results.json
+hy-data-analysis-with-python-2020/**/.tmcproject.yml
+hy-data-analysis-with-python-2020/**/src/__pycache__
+test.py
+versions.py
