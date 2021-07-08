@@ -3,9 +3,9 @@
 import numpy as np
 
 def meeting_planes(a1, b1, c1, a2, b2, c2, a3, b3, c3):
-    A = np.array([[b1, a1,-1], [b2, a2, -1], [b3, a3, -1]])
-    B = np.array([c1 * -1, c2 * -1, c3 * -1]).reshape(3, 1)
-    return np.linalg.solve(A, B)
+    lhs = np.array([[b1, a1, -1], [b2, a2, -1], [b3, a3, -1]])
+    rhs = np.array([-c1, -c2, -c3])
+    return np.linalg.solve(lhs, rhs)
 
 def main():
     a1=1
